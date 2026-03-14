@@ -49,10 +49,10 @@ FIN
 ## 📌 **Interfaz y Pruebas de Funcionamiento**
 ![Demo](https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/CapturaSistema.JPG) 
 Pregunta de prueba 1: ¿Qué es la red nacional de laboratorios según el manual?
-<img src="(https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura1.JPG)" width="600" height="250">
+![Demo](https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura1.JPG)
 
 Pregunta de prueba 2: ¿Cuáles son las funciones específicas de los laboratorios de salud pública departamental?
-<img src="(https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura2.JPG)" width="600" height="250">
+![Demo](https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura2.JPG)
 
 Pregunta de prueba 3: ¿Qué normas rigen el sistema de gestión de calidad en esta red?
-<img src="(https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura3.JPG)" width="600" height="250">
+![Demo](https://github.com/CrhistianZahir/Asistente-RAG-Local-y-Privado/blob/main/Pruebas/Captura3.JPG)
