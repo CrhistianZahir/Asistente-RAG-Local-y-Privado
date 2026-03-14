@@ -29,17 +29,20 @@ Este proyecto resuelve tres desafíos críticos en la adopción de IA a nivel or
 SmartDoc utiliza una arquitectura **RAG (Retrieval-Augmented Generation)**. A continuación, se presenta la lógica algorítmica simplificada (Pseudocódigo):
 
 INICIO SmartDoc
+  
   // 1. Fase de Inicialización
   SI existe carpeta "faiss_index":
       CARGAR base de datos vectorial desde disco
   
   // 2. Fase de Ingesta (Procesamiento del PDF)
+  
   FUNCIÓN Procesar_PDF(archivo):
       fragmentos = DIVIDIR documento EN bloques de 2000 caracteres (Overlap 400)
       vectores = CONVERTIR fragmentos A Embeddings (all-mpnet-base-v2)
       GUARDAR vectores EN disco (Persistencia FAISS)
 
   // 3. Fase de Consulta (Conversación)
+  
   FUNCIÓN Responder_Chat(pregunta):
       contexto = BUSCAR en FAISS los 3 bloques más relevantes
       respuesta = LLM(pregunta + contexto) usando Llama 3.2 (1B)
